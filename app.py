@@ -46,7 +46,7 @@ def check_inbox():
 
 # Function to generate a dummy reply (no OpenAI used)
 def generate_reply(email_body):
-    print("⚠️ Using dummy response (no OpenAI API used).")
+    print(" Using dummy response (no OpenAI API used).")
     return "Thank you for your email. I will get back to you shortly."
 
 # Function to send a reply email
